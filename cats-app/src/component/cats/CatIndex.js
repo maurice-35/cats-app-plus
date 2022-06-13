@@ -30,8 +30,8 @@ const App = () => {
             {cat.length > 0 ? (
               <CardGroup>
                 <Card id="cat-map">
-                  {cat.map((item) => (
-                    <CatCard key={item.id} {...item} />
+                  {cat.map((breed) => (
+                    <CatCard key={breed.id} {...breed} />
                   ))}
                 </Card>
               </CardGroup>

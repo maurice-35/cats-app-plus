@@ -7,7 +7,7 @@
 body {
   position: relative;
   background-color: lightblue;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Fredericka the Great', cursive;
   cursor: pointer;
   border: 15px solid;
   border-image: url('https://img.freepik.com/free-vector/abstract-background-design-emerald-green_53876-43540.jpg?t=st=1655119855~exp=1655120455~hmac=478fcc13ba24559c177dbe4584155875113a7b910967eb56b60deb5277f06df7&w=2000') 30 / 15px / 0px stretch;
@@ -80,8 +80,24 @@ div#cat-map.card {
   margin: 0.5rem;
 }
 
+.container2:hover img {
+  transform: scale(1.1);
+}
+
 svg {
   width: 40px;
   background-color: green;
+}
+
+.footer {
+  width: 100vw;
+  background-color: #f3efef;
+  justify-content: space-evenly;
+  background-image: url("https://image.freepik.com/free-vector/botanical-floral-illustration_53876-80418.jpg?w=740");
+  transform: skew(3.3deg, 3deg);
+}
+
+p.footer-icon {
+  font-size: 4em;
 }
 

@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 import { Col, Card, Popover, Button, Overlay } from "react-bootstrap";
 
-const CatShow = () => {
+const CatShow = ({ image }) => {
   const [cat, setCat] = useState({});
   const { id } = useParams();
   const [show, setShow] = useState(false);
@@ -16,6 +16,7 @@ const CatShow = () => {
         const { data } = await axios.get(
           `https://api.thecatapi.com/v1/breeds/${id}`
         );
+				console.log('SHOW', data)
         setCat(data);
       } catch (err) {
 			}
@@ -32,7 +33,7 @@ const CatShow = () => {
     <section>
       <div>
         <Col>
-          <Card.Img variant="top" src={cat.img} alt={cat.name} />
+				<Card.Img variant="top" src={cat.image ? image.url : ''} alt={cat.name} />
           <Card.Body>
             <Card.Title id="show">{cat.name}</Card.Title>
             <div>
@@ -68,6 +69,8 @@ const CatShow = () => {
             <small className="text">Energy-level: {cat.energy_level}</small>
             <br />
             <small className="text">Dog friendly: {cat.dog_friendly}</small>
+            <br />
+						<small className="text">Affection-level: {cat.affection_level}</small>
             <br />
             <small className="text">Life-span: {cat.life_span}</small>
             <br />

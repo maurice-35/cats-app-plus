@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import CatIndex from './component/cats/CatIndex'
 import CatShow from './component/cats/CatShow'
 import Home from './component/common/Home'
+import Footer from './component/common/Footer'
 import Navigation from './component/common/Navigation'
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
         <Route exact path='/Home' element={<Home />} />
         <Route exact path='/' element={<Home />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }
