@@ -6,13 +6,20 @@
 
 body {
   position: relative;
-  background-color: brown;
+  background-color: lightblue;
   font-family: 'Gloria Hallelujah', cursive;
   cursor: pointer;
-  content-visibility: auto;
-  contain-intrinsic-size: 1px 5000px;
   border: 15px solid;
   border-image: url('https://img.freepik.com/free-vector/abstract-background-design-emerald-green_53876-43540.jpg?t=st=1655119855~exp=1655120455~hmac=478fcc13ba24559c177dbe4584155875113a7b910967eb56b60deb5277f06df7&w=2000') 30 / 15px / 0px stretch;
+}
+
+.navbar-brand {
+  font-size: 3em;
+}
+
+nav.navbar.fixed-top.navbar {
+  background-image: url("https://img.freepik.com/free-vector/watercolor-floral-spring-background_23-2149306428.jpg?t=st=1655119855~exp=1655120455~hmac=eef917ae07360405b510b9611a7d4c2dd9e05be9f44ff6f669ed17bfa0e07685&w=2000");
+  animation: pulse 5s infinite;
 }
 
 .container {
@@ -40,6 +47,15 @@ h1 {
   align-items: center;
   margin-top: 10em;
   letter-spacing: 2px;
+}
+
+@keyframes pulse {
+  0% {
+    background-image: url('https://img.freepik.com/free-vector/watercolor-floral-spring-background_23-2149306428.jpg?t=st=1655119855~exp=1655120455~hmac=eef917ae07360405b510b9611a7d4c2dd9e05be9f44ff6f669ed17bfa0e07685&w=2000');
+  }
+  100% {
+    background-image: url("https://image.freepik.com/free-vector/pink-floral-patterned-background-vector_53876-85184.jpg?w=740");
+  }
 }
 
 div.col {
