@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { Row, CardGroup, Card } from 'react-bootstrap'
 import CatCard from "./CatCard";
+import ScrollToTop from "react-scroll-to-top";
 
 const App = () => {
 	const [cat, setCat] = useState([])
@@ -42,6 +43,7 @@ const App = () => {
           </Card>
         </CardGroup>
       </Row>
+			<ScrollToTop smooth />
     </div>
   )
 }

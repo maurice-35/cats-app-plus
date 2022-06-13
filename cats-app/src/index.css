@@ -1,3 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  background-color: brown;
+  font-family: 'Gloria Hallelujah', cursive;
+  cursor: pointer;
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 5000px;
+  border: 15px solid;
+  border-image: url('https://img.freepik.com/free-vector/abstract-background-design-emerald-green_53876-43540.jpg?t=st=1655119855~exp=1655120455~hmac=478fcc13ba24559c177dbe4584155875113a7b910967eb56b60deb5277f06df7&w=2000') 30 / 15px / 0px stretch;
+}
 
 .container {
   height: 100vh;
@@ -24,5 +40,32 @@ h1 {
   align-items: center;
   margin-top: 10em;
   letter-spacing: 2px;
+}
+
+div.col {
+  display: grid;
+  justify-content: center;
+  padding-top: 2rem;
+  margin: 2rem;
+  background-image: url("https://img.freepik.com/free-vector/smooth-white-wave-background_52683-55288.jpg?t=st=1655117293~exp=1655117893~hmac=48531e9b51a5e7fb61988e741e8684947c1b8a627bf4c648f5438057bf5eee7b&w=2000");
+}
+
+div#cat-map.card {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  background-image: url("https://img.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg?t=st=1655117293~exp=1655117893~hmac=8c8b325877ba40e4b4e83ebfd6becc7bb509307d354c83cea62572075d00ddeb&w=2000");
+  padding-top: 10rem;
+}
+
+.container2 {
+  overflow: hidden;
+  margin: 0.5rem;
+}
+
+svg {
+  width: 40px;
+  background-color: green;
 }
 
