@@ -11,6 +11,8 @@
 - [Contribution to this Project](#contribution-to-this-project)
 - [License & Copyright](#license-and-copyright)
 
+[thecatapi.com](https://thecatapi.com/)
+
 #  Technologies
  - JavaScript
  - Bootstrap
@@ -23,7 +25,7 @@
  - Yarn
  - GitHub
 #  Approach
-I started by signing up to the ‘thecatapi.com’ API and receiving an API key. 
+I started by signing up to the [thecatapi.com](https://thecatapi.com/) API and receiving an API key. 
 <img width="1244" alt="Screenshot 2022-06-14 at 09 14 18" src="https://user-images.githubusercontent.com/84001897/173532587-d221bb1a-47ce-4443-ae8e-ae130901c570.png">
 
 ### Wireframe
