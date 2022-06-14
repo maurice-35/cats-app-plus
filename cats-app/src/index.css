@@ -10,7 +10,8 @@ body {
 
 .navbar-brand {
   font-size: 3em;
-  padding: 0.5em;
+  margin-right: 0.75em;
+  margin-left: 0.25em;
 }
 
 nav.navbar.fixed-top.navbar {
@@ -126,13 +127,13 @@ p.footer-icon {
   div#cat-map.card {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 0.2rem;
-    padding-top: 9rem;
+    padding-top: 8rem;
   }
   div span.logo-emoji {
     font-size: 2em;
     padding: 0.1em;
   }
   .navbar-brand {
-    padding: 0;
+    margin-right: 0;
   }
 }
