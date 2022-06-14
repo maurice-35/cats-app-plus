@@ -7,7 +7,13 @@ const CatCard = ({
   name,
   description,
   energy_level,
+	child_friendly,
   dog_friendly,
+	intelligence,
+	social_needs,
+	health_issues,
+	adaptabilty,
+	vocalisation,
   affection_level,
   temperament,
   life_span,
@@ -62,11 +68,24 @@ const CatCard = ({
           </div>
         </Card.Body>
         <Card.Footer>
-          <small className="text">Energy-level: {energy_level}</small>
+          <small className="text">Energy Level: {energy_level}</small>
           <br />
-          <small className="text">Dog friendly: {dog_friendly}</small>
+          <small className="text">Dog Friendly: {dog_friendly}</small>
           <br />
-          <small className="text">Affection-level: {affection_level}</small>
+          <small className="text">Child Friendly: {child_friendly}</small>
+          <br />
+					<small className="text">Intelligence: {intelligence}</small>
+          <br />
+          <small className="text">Social Needs: {social_needs}</small>
+          <br />
+					<br />
+          <small className="text">Affection Level: {affection_level}</small>
+          <br />
+					<small className="text">Adaptability: {adaptabilty}</small>
+          <br />
+          <small className="text">Vocalisation: {vocalisation}</small>
+          <br />
+          <small className="text">Health Issues: {health_issues}</small>
           <br />
           <small className="text">Temperament: {temperament}</small>
           <br />
