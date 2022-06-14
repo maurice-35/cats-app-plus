@@ -112,7 +112,6 @@ p.footer-icon {
   font-size: 4em;
 }
 
-
 @media (max-width: 600px) {
   div#cat-map.card {
     grid-template-columns: repeat(1, 1fr);
