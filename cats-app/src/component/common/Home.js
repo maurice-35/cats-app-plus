@@ -7,7 +7,7 @@ const Home = () => {
       <div className="container">
         <h1 className="name">
           <span className="logo-emoji">🐈</span>
-          <h1>Your Lovely Cats</h1>
+          <p className="welcome"> Welcome To Your Lovely Cats</p>
           <span className="logo-emoji">🐈</span>
         </h1>
       </div>
