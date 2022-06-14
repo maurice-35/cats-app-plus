@@ -1,7 +1,6 @@
-import React from 'react'
+import React from "react";
 
 const Home = () => {
-
   return (
     <section>
       <div className="container">
@@ -12,7 +11,7 @@ const Home = () => {
         </h1>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
