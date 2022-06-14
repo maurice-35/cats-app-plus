@@ -7,7 +7,7 @@ const Home = () => {
       <div className="container">
         <h1 className="name">
           <span className="logo-emoji">🐈</span>
-          Cats App Plus
+          <h1>Your Lovely Cats</h1>
           <span className="logo-emoji">🐈</span>
         </h1>
       </div>
