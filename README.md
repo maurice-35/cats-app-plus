@@ -30,7 +30,7 @@ I started by signing up to the [thecatapi.com](https://thecatapi.com/) API and r
 
 ### Wireframe
 I made a short plan using Figma.com as shown below.
-<img width="1164" alt="Screenshot 2022-06-14 at 09 47 18" src="https://user-images.githubusercontent.com/84001897/173535399-b39aba11-9898-43c1-b59a-1db8b30794be.png">
+<img width="1160" alt="Screenshot 2022-06-14 at 10 52 46" src="https://user-images.githubusercontent.com/84001897/173549567-38b82178-43df-4dfc-adee-e72f0e0d81e9.png">
 
 #  Process
 I started by installing the necessary packages and frameworks then, I set up the `App.js page`. I then requested the data from the API and made sure I was receiving this on the console in the developer tool.
