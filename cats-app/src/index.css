@@ -33,6 +33,7 @@ nav.navbar.fixed-top.navbar {
 
 div span.logo-emoji {
   font-size: 3em;
+  padding: 0.5em;
 }
 
 .title {
@@ -54,6 +55,7 @@ h1 {
   text-transform: uppercase;
   font-weight: bold;
   font-style: italic;
+  margin-left: 8%;
 }
 
 @keyframes pulse {
@@ -114,8 +116,8 @@ p.footer-icon {
     grid-gap: 0.2rem;
     padding-top: 9rem;
   }
-  .welcome {
-    margin-left: 8%;
+  div span.logo-emoji {
+    padding: none;
   }
 }
 
@@ -125,11 +127,8 @@ p.footer-icon {
     grid-gap: 0.2rem;
     padding-top: 9rem;
   }
-  .welcome {
-    margin-left: 8%;
-  }
-
   div span.logo-emoji {
     font-size: 2em;
+    padding: 0.1em;
   }
 }
