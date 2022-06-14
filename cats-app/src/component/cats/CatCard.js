@@ -36,7 +36,7 @@ const CatCard = ({ image, origin, name, description, energy_level, dog_friendly,
 								<Overlay
 									show={show}
 									target={target}
-									placement="right"
+									placement="bottom"
 									container={ref}
 									containerPadding={20}
 								>

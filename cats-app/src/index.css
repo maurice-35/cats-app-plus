@@ -112,17 +112,19 @@ p.footer-icon {
   font-size: 4em;
 }
 
-@media (max-width: 600px) {
+
+
+@media (max-width: 1200px) {
   div#cat-map.card {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 0.2rem;
     padding-top: 9rem;
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 600px) {
   div#cat-map.card {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 0.2rem;
     padding-top: 9rem;
   }
