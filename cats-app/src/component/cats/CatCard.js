@@ -33,7 +33,7 @@ const CatCard = ({
       <Card.Header>{name}</Card.Header>
       <Card.Img variant="top" src={image ? image.url : ""} alt={name} />
       <Card.Body>
-        <Card.Title id="show">{origin}</Card.Title>
+        <Card.Title id="show1">{origin}</Card.Title>
       </Card.Body>
       <Col>
         <Card.Body>

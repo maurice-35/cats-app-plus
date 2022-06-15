@@ -12,7 +12,6 @@ const App = () => {
     const getData = async () => {
       try {
         const { data } = await axios.get("https://api.thecatapi.com/v1/breeds");
-        console.log("DATA", data);
         setCat(data);
       } catch (err) {
         setHasError(true);
@@ -22,6 +21,7 @@ const App = () => {
   }, []);
 
   return (
+    <section>
     <div>
       <Row className="grid-container">
         <CardGroup>
@@ -44,6 +44,7 @@ const App = () => {
       </Row>
       <ScrollToTop smooth />
     </div>
+    </section>
   );
 };
 

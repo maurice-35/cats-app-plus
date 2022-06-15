@@ -53,7 +53,6 @@ h1 {
 
 .welcome {
   font-family: none;
-  text-decoration: double;
   text-transform: uppercase;
   font-weight: bold;
   font-style: italic;
@@ -85,15 +84,20 @@ div#cat-map.card {
   background-image: url("https://img.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg?t=st=1655117293~exp=1655117893~hmac=8c8b325877ba40e4b4e83ebfd6becc7bb509307d354c83cea62572075d00ddeb&w=2000");
 }
 
+.card-img-top {
+  padding: 2rem;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+}
+
 .container2 {
   overflow: hidden;
   margin: 0.5rem;
-  max-width: 25rem;
+  height: 90rem;
   border: 2px solid goldenrod;
-}
-
-.container2:hover img {
-  transform: scale(1.1);
+  padding-top: 3rem;
 }
 
 svg {
@@ -113,14 +117,21 @@ p.footer-icon {
   font-size: 4em;
 }
 
+#show1, .card-header {
+  text-transform: uppercase;
+}
+
 @media (max-width: 1200px) {
   div#cat-map.card {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0.2rem;
-    padding-top: 9rem;
+    padding-top: none;
   }
   div span.logo-emoji {
-    padding: none;
+    padding: 0;
+  }
+  .container2 {
+    height: 75rem;
   }
 }
 
@@ -128,7 +139,7 @@ p.footer-icon {
   div#cat-map.card {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 0.2rem;
-    padding-top: 8rem;
+    padding-top: 0;
   }
   div span.logo-emoji {
     font-size: 2em;
@@ -137,5 +148,9 @@ p.footer-icon {
   .navbar-brand {
     margin-right: 0.5em;
     font-size: 2em;
+  }
+
+  .container2 {
+    height: 75rem;
   }
 }
