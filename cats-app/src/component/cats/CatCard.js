@@ -12,17 +12,22 @@ const CatCard = ({
 	intelligence,
 	social_needs,
 	health_issues,
-	adaptabilty,
+	adaptability,
 	vocalisation,
   affection_level,
   temperament,
+  grooming,
   life_span,
+  weight,
 }) => {
+  // We use useState to enhance performance
   const [show, setShow] = useState(false);
   const [target, setTarget] = useState(null);
 
+  // Here we use ref to acces the elements in the 'description' & 'click me' below to change the child component's value
   const ref = useRef(null);
 
+  // Here, we pass a function as an event listener
   const handleClick = (event) => {
     setShow(!show);
     setTarget(event.target);
@@ -78,10 +83,10 @@ const CatCard = ({
           <br />
           <small className="text">Social Needs: {social_needs}</small>
           <br />
-					<br />
           <small className="text">Affection Level: {affection_level}</small>
           <br />
-					<small className="text">Adaptability: {adaptabilty}</small>
+          <br />
+					<small className="text">Adaptability: {adaptability}</small>
           <br />
           <small className="text">Vocalisation: {vocalisation}</small>
           <br />
@@ -89,7 +94,11 @@ const CatCard = ({
           <br />
           <small className="text">Temperament: {temperament}</small>
           <br />
+          <small className="text">Grooming: {grooming}</small>
+          <br />
           <small className="text">Life-span: {life_span}</small>
+          <br />
+          <small className="text">Imperial Weight: {weight ? weight.imperial: ''}</small>
           <br />
           <small className="text">Origin: {origin}</small>
           <br />
