@@ -7,13 +7,13 @@ const CatCard = ({
   name,
   description,
   energy_level,
-	child_friendly,
+  child_friendly,
   dog_friendly,
-	intelligence,
-	social_needs,
-	health_issues,
-	adaptability,
-	vocalisation,
+  intelligence,
+  social_needs,
+  health_issues,
+  adaptability,
+  vocalisation,
   affection_level,
   temperament,
   grooming,
@@ -73,35 +73,37 @@ const CatCard = ({
           </div>
         </Card.Body>
         <Card.Footer>
-          <small className="text">Energy Level: {energy_level}</small>
-          <br />
-          <small className="text">Dog Friendly: {dog_friendly}</small>
-          <br />
-          <small className="text">Child Friendly: {child_friendly}</small>
-          <br />
-					<small className="text">Intelligence: {intelligence}</small>
-          <br />
-          <small className="text">Social Needs: {social_needs}</small>
-          <br />
-          <small className="text">Affection Level: {affection_level}</small>
-          <br />
-          <br />
-					<small className="text">Adaptability: {adaptability}</small>
-          <br />
-          <small className="text">Vocalisation: {vocalisation}</small>
-          <br />
-          <small className="text">Health Issues: {health_issues}</small>
-          <br />
-          <small className="text">Temperament: {temperament}</small>
-          <br />
-          <small className="text">Grooming: {grooming}</small>
-          <br />
-          <small className="text">Life-span: {life_span}</small>
-          <br />
-          <small className="text">Imperial Weight: {weight ? weight.imperial: ''}</small>
-          <br />
-          <small className="text">Origin: {origin}</small>
-          <br />
+            <small className="text">Energy Level: {energy_level}</small>
+            <br />
+            <small className="text">Dog Friendly: {dog_friendly}</small>
+            <br />
+            <small className="text">Child Friendly: {child_friendly}</small>
+            <br />
+            <small className="text">Intelligence: {intelligence}</small>
+            <br />
+            <small className="text">Social Needs: {social_needs}</small>
+            <br />
+            <small className="text">Affection Level: {affection_level}</small>
+            <br />
+            <br />
+            <small className="text">Adaptability: {adaptability}</small>
+            <br />
+            <small className="text">Vocalisation: {vocalisation}</small>
+            <br />
+            <small className="text">Health Issues: {health_issues}</small>
+            <br />
+            <small className="text">Temperament: {temperament}</small>
+            <br />
+            <small className="text">Grooming: {grooming}</small>
+            <br />
+            <small className="text">Life-span: {life_span}</small>
+            <br />
+            <small className="text">
+              Imperial Weight: {weight ? weight.imperial : ""}
+            </small>
+            <br />
+            <small className="text">Origin: {origin}</small>
+            <br />
         </Card.Footer>
       </Col>
     </div>
