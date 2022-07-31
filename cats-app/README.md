@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# cats-app-plus
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Table of Contents
+- [Technologies](#technologies)
+- [Framework](#framework)
+- [Dependencies and Components](#dependencies-and-components)
+- [Approach](#approach)
+- [Wins](#wins)
+- [Challenges](#challenges)
+- [Future Features](#future-features)
+- [Contribution to this Project](#contribution-to-this-project)
+- [License & Copyright](#license-and-copyright)
 
-## Available Scripts
+[thecatapi.com](https://thecatapi.com/)
 
-In the project directory, you can run:
+#  Technologies
+ - JavaScript
+ - Bootstrap
+ - CSS
+ - HTML
+#  Framework
+ - React
+ #  Dependencies and Components
+ - Axios
+ - Yarn
+ - GitHub
+#  Approach
+I started by signing up to the [thecatapi.com](https://thecatapi.com/) API and receiving an API key. 
+<img width="1244" alt="Screenshot 2022-06-14 at 09 14 18" src="https://user-images.githubusercontent.com/84001897/173532587-d221bb1a-47ce-4443-ae8e-ae130901c570.png">
 
-### `npm start`
+### Wireframe
+I made a short plan using Figma.com as shown below.
+<img width="1170" alt="Screenshot 2022-06-14 at 10 54 23" src="https://user-images.githubusercontent.com/84001897/173549905-29e11ef4-62fb-46c0-8793-8c24f36e8eb3.png">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#  Process
+I started by installing the necessary packages and frameworks then, I set up the `App.js page`. I then requested the data from the API and made sure I was receiving this on the console in the developer tool.
+  <img width="1358" alt="Screenshot 2022-06-13 at 09 05 39" src="https://user-images.githubusercontent.com/84001897/173537051-4d40c3a6-d73d-40ad-928b-7a85224ff443.png">
 
-### `npm test`
+I created the `navigation page` and the cats folder. I created the index page and styled apprioriately. I displayed the data from the API on the app as seen below.
+  <img width="1606" alt="Screenshot 2022-06-14 at 09 27 41" src="https://user-images.githubusercontent.com/84001897/173537673-99c4f549-5293-4bad-bc1b-720dc8f97371.png">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#  Wins
+- It was a good way to exercise my technical skills.
+#  Challenges
+I could not display images from the cat IDs so I set up the props on the same index page.
+#  Future Features
+This final output does not cover all my intentions and plans for the project. As a result, I intend to make some improvements on this project particularly on:
+- Creating a CatShow page displaying the images and data from the API.
+  
+#  Contribution to this project
+I welcome any contribution or suggestions to improve this project.
+#  License and copyright
+This project was built as part of a continuous educational purpose. No copyright infringement is intended and all content is used under educational license.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##### © Maurice Kollewe
