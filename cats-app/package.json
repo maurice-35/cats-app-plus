@@ -20,7 +20,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest --no-cache",
+    "test": "react-scripts test",
     "test:coverage": "jest --coverage --no-cache",
     "test-watch": "jest --watch",
     "watch": "webpack --progress --watch",
@@ -45,10 +45,11 @@
     ]
   },
   "devDependencies": {
+    "jest-css-modules": "^2.1.0",
     "react-test-renderer": "^18.2.0"
   },
   "moduleDirectories": [
     "node_modules",
     "src"
-]
+  ]
 }

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page should be rendered 1`] = `
+<p
+  class="welcome"
+>
+   Welcome To Your Lovely Cats App
+</p>
+`;

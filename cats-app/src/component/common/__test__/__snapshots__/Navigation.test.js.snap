@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation should display cats page 1`] = `
+<a
+  class="nav-link"
+  href="/cats"
+>
+  Cats
+</a>
+`;

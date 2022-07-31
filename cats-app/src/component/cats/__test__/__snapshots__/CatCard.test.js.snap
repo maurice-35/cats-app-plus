@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CatCard Button should display description 1`] = `
+<button
+  class="btn btn-outline-success"
+  id="button"
+  type="button"
+>
+  Click me!
+</button>
+`;
+
+exports[`CatCard should display cats page 1`] = `
+<button
+  aria-describedby=""
+  class="btn btn-outline-success"
+  id="button"
+  type="button"
+  value="description"
+>
+  Click me!
+</button>
+`;

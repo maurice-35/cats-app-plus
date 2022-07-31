@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CatCard should display loading page 1`] = `
+<h2
+  class="index"
+>
+  ...loading
+</h2>
+`;
