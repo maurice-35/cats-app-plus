@@ -32,9 +32,9 @@ afterEach(() => {
 })
 it('renders breed data', async () => {
 	const fakeBreed = {
+		name: "",
 		image: "",
 		origin: "",
-		name: "",
 		weight: "",
 	}
 	jest.spyOn(global, "fetch").mockImplementation(() =>

@@ -12,7 +12,6 @@ module.exports = async () => {
     verbose: true,
   };
 };
-
 // // A map from regular expression to module names
 //   moduleNameMapper: {
 //     "\\.(css|less|scss|sss|styl)$": "<rootDir>/node_modules/jest-css-modules"
