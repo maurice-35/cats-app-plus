@@ -1,7 +1,33 @@
 import { screen, render, fireEvent } from '@testing-library/react'
 import { unmountComponentAtNode } from "react-dom";
 import { act } from "react-dom/test-utils";
+import { rest } from "msw";
+import { setupServer } from "msw/node";
 import CatIndex from './CatIndex'
+
+
+const body = { hello: "world" };
+
+const server = setupServer(
+	rest.get(
+		"https://api.thecatapi.com/v1/breeds",
+		(_, res, ctx) => {
+			return res(ctx.status(200), ctx.json(body));
+		}
+	)
+);
+
+describe("CatIndex", () => {
+	beforeAll(() => server.listen());
+
+	afterEach(() => server.resetHandlers());
+
+	afterAll(() => server.close());
+	it('should do something', () => {
+		expect(true).toBe(true)
+	})
+});
+
 
 const mockedSetCatIndex = jest.fn()
 
@@ -36,6 +62,7 @@ it('renders breed data', async () => {
 		image: "",
 		origin: "",
 		weight: "",
+
 	}
 	jest.spyOn(global, "fetch").mockImplementation(() =>
 		Promise.resolve({
